@@ -3,9 +3,9 @@
 
 
 def my_sum(x, y):
-    """ Compute the sum of 2 numbers
+    """ Compute the sum of 2 numbers, as a float.
     """
-    return x + 2*y
+    return (x + y)*1.0
 
 
 def my_power(a,n):
