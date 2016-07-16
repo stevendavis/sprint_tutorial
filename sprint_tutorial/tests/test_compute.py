@@ -1,7 +1,7 @@
 """ Tests for the compute module
 """
 
-from sprint_tutorial.compute import my_sum, my_power
+from sprint_tutorial.compute import my_sum, my_power, my_ratio
 import pytest
 
 def test_my_sum():
@@ -18,3 +18,7 @@ def test_my_root():
     assert my_root(4) == 2.0
     assert my_power(8, 2) == 2.0
     
+def test_my_ratio():
+    assert my_ratio(4, 2) == 2.0
+    assert my_ratio(2, 4) == 0.5
+

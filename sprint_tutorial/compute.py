@@ -20,3 +20,8 @@ def my_root(a, n=2):
     """ Compute the nth root of a """
     res = a**(1.0/n)
     return res
+
+def my_ratio(x, y):
+    """Compute the ratio of two numbers.
+    """
+    return float(x) / float(y)
